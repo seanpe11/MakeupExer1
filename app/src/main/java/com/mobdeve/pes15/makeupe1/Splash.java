@@ -6,8 +6,10 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.widget.ImageView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 // copy pasted from https://stackoverflow.com/questions/5486789/how-do-i-make-a-splash-screen
-public class Splash extends Activity {
+public class Splash extends AppCompatActivity {
 
     /** Duration of wait **/
     private final int SPLASH_DISPLAY_LENGTH = 1000;
@@ -19,6 +21,7 @@ public class Splash extends Activity {
         setContentView(R.layout.splashscreen);
         ImageView logo = findViewById(R.id.imageSplash);
         logo.setImageResource(R.drawable.gcash_logo); // was weird when defining in layout.xml
+        getSupportActionBar().hide();
 
         /* New Handler to start the Menu-Activity
          * and close this Splash-Screen after some seconds.*/
@@ -26,7 +29,7 @@ public class Splash extends Activity {
             @Override
             public void run() {
                 /* Create an Intent that will start the Menu-Activity. */
-                Intent mainIntent = new Intent(Splash.this, MainActivity.class);
+                Intent mainIntent = new Intent(Splash.this, WelcomeActivity.class);
                 Splash.this.startActivity(mainIntent);
                 Splash.this.finish();
             }
