@@ -32,6 +32,8 @@ public class WelcomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
+                String number = "01234567891";
+                intent.putExtra("NUMBER", number);
                 startActivity(intent);
             }
         });

@@ -15,10 +15,9 @@ public class CashOutActivity extends AppCompatActivity {
         getSupportActionBar().hide();
         ImageView villarica_img = findViewById(R.id.villarica_img);
         ImageView tambunting_img = findViewById(R.id.tambunting_img);
-        ImageView pp_img = findViewById(R.id.pp_img);
-        ImageView puregold_img = findViewById(R.id.puregold_img);
+        ImageView pp_img = findViewById(R.id.puregold_img);
+        ImageView puregold_img = findViewById(R.id.pp_img);
         ImageView bayad_img = findViewById(R.id.bayad_img);
-
         ImageView cashout_img = findViewById(R.id.cashout_img);
         cashout_img.setVisibility(View.GONE);
 
