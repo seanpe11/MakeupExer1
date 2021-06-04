@@ -84,7 +84,7 @@
                 android:layout_width="69dp"
                 android:layout_height="69dp"
                 android:layout_gravity="center_horizontal"
-                app:srcCompat="@drawable/cashout_icon" />
+                app:srcCompat="@drawable/sendmoney" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -106,7 +106,7 @@
                 android:layout_width="69dp"
                 android:layout_height="69dp"
                 android:layout_gravity="center_horizontal"
-                app:srcCompat="@drawable/cashout_icon" />
+                app:srcCompat="@drawable/savemoney" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -128,7 +128,7 @@
                 android:layout_width="69dp"
                 android:layout_height="69dp"
                 android:layout_gravity="center_horizontal"
-                app:srcCompat="@drawable/cashout_icon" />
+                app:srcCompat="@drawable/buyload" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -157,7 +157,7 @@
                 android:layout_width="69dp"
                 android:layout_height="69dp"
                 android:layout_gravity="center|center_horizontal"
-                app:srcCompat="@drawable/cashout_icon" />
+                app:srcCompat="@drawable/gcash_forest" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -179,7 +179,7 @@
                 android:layout_width="69dp"
                 android:layout_height="69dp"
                 android:layout_gravity="center_horizontal"
-                app:srcCompat="@drawable/cashout_icon" />
+                app:srcCompat="@drawable/managecredit" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -201,7 +201,7 @@
                 android:layout_width="69dp"
                 android:layout_height="69dp"
                 android:layout_gravity="center_horizontal"
-                app:srcCompat="@drawable/cashout_icon" />
+                app:srcCompat="@drawable/paybills" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -223,7 +223,7 @@
                 android:layout_width="69dp"
                 android:layout_height="69dp"
                 android:layout_gravity="center_horizontal"
-                app:srcCompat="@drawable/cashout_icon" />
+                app:srcCompat="@drawable/payqr" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -252,7 +252,7 @@
                 android:layout_width="69dp"
                 android:layout_height="69dp"
                 android:layout_gravity="center|center_horizontal"
-                app:srcCompat="@drawable/cashout_icon" />
+                app:srcCompat="@drawable/investmoney" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -274,7 +274,7 @@
                 android:layout_width="69dp"
                 android:layout_height="69dp"
                 android:layout_gravity="center_horizontal"
-                app:srcCompat="@drawable/cashout_icon" />
+                app:srcCompat="@drawable/banktransfer" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -296,7 +296,7 @@
                 android:layout_width="69dp"
                 android:layout_height="69dp"
                 android:layout_gravity="center_horizontal"
-                app:srcCompat="@drawable/cashout_icon" />
+                app:srcCompat="@drawable/splitbill" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -318,7 +318,7 @@
                 android:layout_width="69dp"
                 android:layout_height="69dp"
                 android:layout_gravity="center_horizontal"
-                app:srcCompat="@drawable/cashout_icon" />
+                app:srcCompat="@drawable/more" />
 
             <TextView
                 android:layout_width="match_parent"

@@ -24,7 +24,6 @@ public class WelcomeActivity extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
                 startActivity(intent);
-                finish();
             }
         });
         // set with premade number
