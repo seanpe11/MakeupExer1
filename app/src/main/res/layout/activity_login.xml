@@ -14,7 +14,7 @@
         android:layout_height="200dp"
         android:layout_gravity="center_horizontal"
         android:layout_margin="10dp"
-        android:layout_weight="1"
+        android:layout_weight="0"
         android:maxHeight="20dp"
         app:srcCompat="@drawable/gcash_logo" />
 
@@ -29,7 +29,7 @@
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
-            android:layout_weight="1"
+            android:layout_weight="0"
             android:gravity="bottom"
             android:text="Enter your mobile number"
             android:textColor="#FFFFFF"
@@ -39,9 +39,9 @@
             android:id="@+id/number_etv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="0"
             android:ems="10"
-            android:inputType="number"
+            android:inputType="phone"
             android:textColor="#FFFFFF"
             android:textColorHighlight="#FFFFFF"
             android:textColorHint="#FFFFFF" />
@@ -50,7 +50,8 @@
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_marginBottom="30dp"
+            android:layout_weight="0"
             android:text="Available for all networks!"
             android:textColor="#FFFFFF" />
 
@@ -58,7 +59,10 @@
             android:id="@+id/actual_login_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_margin="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="0"
             android:text="login"
             android:textColor="#007DFF"
             android:textColorHighlight="#FFFFFF"
